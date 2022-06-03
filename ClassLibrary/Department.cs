@@ -6,13 +6,13 @@ namespace ClassLibrary
 		public Department()
 		{
 		}
-		protected internal string Name;
+		public string Name;
 
-		protected internal int EmployeeLimit;
+		public int EmployeeLimit;
 
-		protected internal int SalaryLimit;
+		public int SalaryLimit;
 
-		protected internal Employee[] employees = new Employee[0];
+		public Employee[] employees = new Employee[0];
 
 
 		public void AddEmployee(Employee employee)
