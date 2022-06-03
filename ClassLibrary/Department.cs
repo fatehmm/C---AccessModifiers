@@ -15,7 +15,7 @@ namespace ClassLibrary
 		public Employee[] employees = new Employee[0];
 
 
-		public void AddEmployee(Employee employee)
+		public void AddEmployee(Employee employees)
         {
             if (employees.Length <= EmployeeLimit)
             {
