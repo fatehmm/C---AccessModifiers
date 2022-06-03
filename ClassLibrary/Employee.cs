@@ -6,9 +6,9 @@ namespace ClassLibrary
 		public Employee()
 		{
 		}
-		protected internal string _name;
-        protected internal string _surname;
-        protected internal int _salary;
+		private string _name;
+       		private string _surname;
+        	private int _salary;
 
 		public int Salary
         {
